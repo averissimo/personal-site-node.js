@@ -1,0 +1,32 @@
+body {
+	background-image: url(background.svg);
+	background-repeat: repeat;
+	background-size: 5px;
+	background-blend-mode: overlay;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+}
+
+.profile {
+	padding: .3em;
+	border: 1px solid #e3e3e3;
+}
+
+.title {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.content {
+	padding: 1em;
+	max-width: 700px;
+	border: 1px solid #f3f3f3;
+	border-top: 3px solid #0091ed;
+	box-shadow: 0 0 6px #7D7D7D;
+	background-color: #fff;
+	margin: 1em auto;
+}
