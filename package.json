@@ -1,0 +1,24 @@
+{
+	"name": "html-page",
+	"version": "0.0.1",
+	"description": "Generate personal page",
+	"main": "index.js",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"html": "^1.0.0",
+		"remarkable": "^1.7.1"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "André Veríssimo",
+	"license": "GPLv3",
+	"xo": {
+		"space": true,
+		"rules": {
+			"capitalized-comments": "off"
+		}
+	}
+}
